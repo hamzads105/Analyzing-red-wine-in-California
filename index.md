@@ -96,7 +96,7 @@ The distributions of ratings were positive reaffirmation that red wine in Califo
 
 ![Octocat](https://raw.githubusercontent.com/hamzads105/Analyzing-red-wine-in-California/main/images/9.png)
 
-To plot the correlation between the price and rating, we used a grid of 100 price points using the Poisson regression model to predict the corresponding ratings. The predicted ratings are then plotted as a line, and the actual data points are plotted as a scatter plot. The two plots are then displayed on the same graph, with a legend and axis labels added. We notice that there is no correlation between the price and ratings as the Poisson regression line doesn't fit in most of the points. 
+To plot the correlation between the price and rating, we used a grid of 100 price points using the Poisson regression model to predict the corresponding ratings. The predicted ratings are then plotted as a line, and the actual data points are plotted as a scatter plot. The two plots are then displayed on the same graph, with a legend and axis labels added.
 
 Before we started looking at the pairings, we broke down the variety of grapes in California to provide an accurate representation of popularity. California is extremely well known for its Cabernet Sauvignon, Pinot Noir, and Merlot. The entire distribution, along with the “frequency” (number of wines containing these grapes) can be seen below:
 
@@ -145,7 +145,7 @@ Although our model is robust, there are some clear limitations to it. First of a
 
 The aim of this project was to provide wines that our college peers could afford and enjoy without breaking the bank. The three wines that came out on top are commercially sold in supermarkets worldwide, have a great reputation amongst the wine community, and are cabinet staples that always deliver, no matter the vintage. These wines can be seen below:
 
-![Octocat](https://raw.githubusercontent.com/hamzads105/Analyzing-red-wine-in-California/main/images/14.png)
+![Octocat](https://raw.githubusercontent.com/hamzads105/Analyzing-red-wine-in-California/main/images/14.jpeg)
 
 **Meiomi Pinot Noir -**
 
