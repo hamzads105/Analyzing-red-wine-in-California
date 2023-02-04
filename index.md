@@ -164,3 +164,59 @@ When coming to food pairings, we decided to switch to the API because we wanted 
 
 In terms of data cleaning, we were fortunate enough to get correct data and no missing values. The variables are consistent across the whole dataset as they follow the same format. In order to analyze and plot our data, we used python : pandas, seaborn, numpy, matplotlib. 
 
+# Limitations
+
+Although our model is robust, there are some clear limitations to it. First of all, we could not extract every characteristic of red wine. This is because scraping certain characteristics such as oakiness, the presence of red fruit, the presence of tobacco, etc would require us to go to every individual page of wine and scrape this information. Because we had over 12,000 wines in our data set, scraping each individual page would be extremely time-consuming and counterproductive. But, because we didn't scrape every characteristic, it does mean that our model and results have room for improvement. If we had looked at each individual page, there is a chance that our results would have differed slightly. Additionally, our filters only allowed the price of wine to range from $0-$500. Although this would not affect our model to a large extent (as we were looking specifically for value-for-money wine), it would have increased the number of wines in our dataset, allowing for more complex analysis. Furthermore, since Vivino is an active site, the number of wines uploaded and reviewed changes frequently. This means that over the course of our project, it is possible that the number of reviews could have increased for a wine that was close to being the best wine, as the review count was an important asset to the algorithm. Lastly, there is an inherent bias in the data set because reviews in Vivino are not verified. 
+
+# Conclusion & Results: 
+
+The aim of this project was to provide wines that our college peers could afford and enjoy without breaking the bank. The three wines that came out on top are commercially sold in supermarkets worldwide, have a great reputation amongst the wine community, and are cabinet staples that always deliver, no matter the vintage. These wines can be seen below:
+
+![Octocat](https://raw.githubusercontent.com/hamzads105/test/main/images/14.png)
+
+**Meiomi Pinot Noir -**
+
+![Octocat](https://raw.githubusercontent.com/hamzads105/test/main/images/15.png)
+
+|       Name       |       Price       |       Reviews       |       Review count       |       Grape         |
+|:-------------|:------------------|
+| Meiomi Pinot Noir         | $17.99  | 2005  | 16347  | Pinot Noir  |
+
+**Bonanza Cabarnet Sauvignon Lot N.V**
+
+![Octocat](https://raw.githubusercontent.com/hamzads105/test/main/images/16.png)
+
+|       Name       |       Price       |       Reviews       |       Review count       |       Grape         |
+|:-------------|:------------------|
+| Bonanza Cabernet Sauvignon       |  $16.98  | N.V  | 26546  | Cabernet Sauvignon   |
+
+**1000 Stories Zinfandel 2017**
+![Octocat](https://raw.githubusercontent.com/hamzads105/test/main/images/17.png)
+
+|       Name       |       Price       |       Reviews       |       Review count       |       Grape         |
+|:-------------|:------------------|
+| 1000 stories Zinfandel     |  $19.99  | 2017  | 9521  | Zinfandel   |
+
+We used three characteristics to derive our top three “value for money” wines - price, review count, and overall rating. The conditions we used were as follows:
+
+|       Price       |       Review Count       |       Rating       |
+|:-------------|:------------------|
+| >$15 & <$25     |  Ascending Order  | > 4  |
+
+We chose a rating of 4 because, for the price point, any wine rated above 4 is rare. We also chose our $15 - $25 price range because any wine below 15 would have not made the 4+ rating. We needed our review count to be in ascending order because the higher the review count, the more likely it would be enjoyed by anyone purchasing the bottle. A screenshot of our code can be seen below:
+
+![Octocat](https://raw.githubusercontent.com/hamzads105/test/main/images/18.png)
+
+When we were studying in the US, we managed to try all three of these wines (as they are commercially sold in supermarkets) and were extremely surprised to see the same wines on our list. Meoimi is an extremely popular wine, and our personal favorite out of the three. It is easy to drink, affordable, and provides the best value for money from the Californian market.
+
+Appendix:
+https://econlife.com/2020/01/wine-consumption-changes/
+\https://en.wikipedia.org/wiki/Vivino
+https://napavintners.com/press/press_release_detail.asp?ID_News=28
+https://www.vivino.com/GB/en/meiomi-pinot-noir/w/1136137
+https://www.vivino.com/GB/en/bonanza-california-cabernet-sauvignon-lot/w/6886895
+https://www.vivino.com/GB/en/ten-zero-zero-stories-zinfandel/w/2918277
+
+
+
+
