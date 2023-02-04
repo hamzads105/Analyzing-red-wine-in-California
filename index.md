@@ -80,7 +80,7 @@ After analyzing the important years in California wine production, we then explo
 
 With over 12,000 wines to analyze, we decide to group our wines into different price ranges and categories. The best way to do this was using intervals of $50 and plotting a bar graph to see which price points the majority of wines fell under. This distribution can be seen below:
 
-![Octocat](https://raw.githubusercontent.com/hamzads105/test/main/images/s1.png)
+![Octocat](https://raw.githubusercontent.com/hamzads105/Analyzing-red-wine-in-California/main/images/s1.png)
 
 As we can see, the majority of wine in California fell under the $0-50 price range. This makes a lot of sense, as most producers in the region would be focused on producing wine at scale to sell to the mass market. The average buyer of wine would not spend more than $50 on a bottle, either because they want something to consume quickly (and not store), or because they do not have the desire or understanding of wine to spend more than $50 on it. The wines over $100 would be purchased by those with a higher disposable income, for celebrations, and for consumers who fall under the “collector” category. For a value-for-money wine, the price would need to fit into the first “$0-50” category as most college students would not have a budget to spend more than that. 
 
