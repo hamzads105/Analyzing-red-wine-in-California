@@ -164,7 +164,7 @@ Although our model is robust, there are some clear limitations to it. First of a
 
 The aim of this project was to provide wines that our college peers could afford and enjoy without breaking the bank. The three wines that came out on top are commercially sold in supermarkets worldwide, have a great reputation amongst the wine community, and are cabinet staples that always deliver, no matter the vintage. These wines can be seen below:
 
-![Octocat](https://raw.githubusercontent.com/hamzads105/test/main/images/14.png)
+![Octocat](https://raw.githubusercontent.com/hamzads105/test/main/images/14.jpeg)
 
 **Meiomi Pinot Noir -**
 
